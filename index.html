@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>barra de menu</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+    <div id="root">
+        <nav id="nav-bar">
+            <span id="logo">Logo</span>
+            <ul id="list">
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+            <button id="btn">Entrar</button>
+        </nav>
+        <div class="nav-mobile">
+            <span class="logo">Logo</span>
+            <span onclick="showMenu()" class="btn-span" >Menu</span>
+        </div>
+
+        <nav class="menu">
+            <ul class="list">
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+            <button class="btn" id="btn-mobile">Entrar</button>
+        </nav>
+
+    </div>
+    <script src="/assets/js/script.js"></script>
+</body>
+
+</html>
